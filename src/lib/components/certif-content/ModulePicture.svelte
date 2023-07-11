@@ -3,10 +3,8 @@
 </script>
 
 <div class="w-full lg:w-1/3 my-8 lg:px-12 flex justify-center">
-	<div class="module-background bg-cover" style={`background-image: url(${picture})`}>
-		<div
-			class="module-container lg:px-6 py-12 flex flex-wrap justify-center h-full text-center text-white"
-		>
+	<div class="module-background bg-cover w-full" style={`background-image: url(${picture})`}>
+		<div class="module-container py-12 flex flex-wrap justify-center h-full text-center text-white">
 			<div class="w-full lg:mx-32 mb-8 px-20">
 				<h3 class="text-2xl lg:text-4xl p-2">
 					<slot name="title" />
