@@ -54,7 +54,5 @@
 			certificados em todos os estados do Brasil.</span
 		>
 	</LearningPoint>
-	<div class="p-20">
-		<MasterclassGradient color="black" />
-	</div>
+	
 </div>

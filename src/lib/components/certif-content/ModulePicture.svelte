@@ -2,7 +2,10 @@
 	export let picture: string;
 </script>
 
-<div class="bg-cover module-background h-48 w-auto" style={`background-image: url(${picture})`}>
+<div
+	class="bg-cover module-background h-48 w-auto my-8"
+	style={`background-image: url(${picture})`}
+>
 	<div class="module-container flex flex-wrap justify-center text-center h-full text-white">
 		<div class="w-full mx-32 mt-auto mb-8">
 			<h3 class="text-4xl p-2">

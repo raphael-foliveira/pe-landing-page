@@ -4,7 +4,7 @@
 	export let color: 'white' | 'black' = 'white';
 </script>
 
-<div class="gradient flex text-center content-center w-full h-40">
+<div class="gradient flex text-center content-center w-full">
 	<p class="mr-2 align-middle mt-2">-Masterclass Personal de Sucesso</p>
 	{#if color == 'white'}
 		<img src={LogoWhite} alt="" class="h-10 w-auto" />

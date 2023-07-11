@@ -1,4 +1,5 @@
 <script>
+	import MasterclassGradient from './MasterclassGradient/MasterclassGradient.svelte';
 	import LearningPoints from './learning-points/LearningPoints.svelte';
 </script>
 
@@ -22,6 +23,9 @@
 	</div>
 
 	<LearningPoints />
+	<div class="px-36 py-10">
+		<MasterclassGradient color="black" />
+	</div>
 </div>
 
 <style>
