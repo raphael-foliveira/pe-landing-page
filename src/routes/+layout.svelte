@@ -15,14 +15,14 @@
 		<title>Gallo Personal Systems</title>
 	</head>
 	<!-- App Bar -->
-	<div class="flex flex-row w-full justify-around p-6 navbar font-semibold">
+	<div class="flex flex-row w-full justify-around p-2 lg:p-4 navbar font-semibold">
 		<img src={LOGO} alt="Gallo logo" />
-		<a href="/">Além da ED. Física</a>
-		<a href="/">Nossos Produtos</a>
-		<a href="/">Missão</a>
-		<a href="/">Quem somos</a>
-		<a href="/">Youtube</a>
-		<a href="/">Fale Conosco</a>
+		<a href="/" class="hidden lg:inline">Além da ED. Física</a>
+		<a href="/" class="hidden lg:inline">Nossos Produtos</a>
+		<a href="/" class="hidden lg:inline">Missão</a>
+		<a href="/" class="hidden lg:inline">Quem somos</a>
+		<a href="/" class="hidden lg:inline">Youtube</a>
+		<a href="/" class="hidden lg:inline">Fale Conosco</a>
 	</div>
 	<!-- Page Route Content -->
 	<slot />
