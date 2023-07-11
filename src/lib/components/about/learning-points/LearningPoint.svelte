@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="w-full lg:w-1/2 flex flex-wrap justify-center text-center px-8 lg:justify-normal lg:text-left lg:px-0 py-20"
+	class="w-full lg:w-1/2 flex flex-wrap justify-center text-center px-8 lg:justify-normal lg:text-left lg:px-0 py-4 lg:py-20"
 >
 	<div
 		class="image-background rounded-3xl h-24 w-24 drop-shadow-md lg:mr-8 mb-8 flex justify-center"

@@ -4,16 +4,16 @@
 	import SuccessGuide from './SuccessGuide.svelte';
 </script>
 
-<div class="background mx-2 p-12 rounded-3xl flex flex-wrap my-8">
-	<div class="flex justify-between w-full mx-14">
-		<div>
-			<button class="btn bg-white rounded-3xl p-10 font-black">CONTEÚDO DA CERTIFICAÇÃO</button>
+<div class="background mx-2 lg:p-12 rounded-3xl flex flex-wrap my-8">
+	<div class="flex justify-between w-full lg:mx-14">
+		<div class="mx-auto lg:mx-0">
+			<button class="btn bg-white rounded-3xl lg:p-10 font-black">CONTEÚDO DA CERTIFICAÇÃO</button>
 		</div>
-		<div class="flex content-middle">
+		<div class="lg:flex content-middle hidden">
 			<MasterclassGradient color="black" />
 		</div>
 	</div>
-	<div class="flex flex-wrap justify-around">
+	<div class="flex flex-wrap lg:justify-around">
 		<Modules />
 	</div>
 	<SuccessGuide />

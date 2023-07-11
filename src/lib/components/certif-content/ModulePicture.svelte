@@ -2,25 +2,29 @@
 	export let picture: string;
 </script>
 
-<div class="module-background my-8" style={`background-image: url(${picture})`}>
-	<div class="module-container flex flex-wrap justify-center text-center h-full text-white">
-		<div class="w-full mx-32 mt-auto mb-8">
-			<h3 class="text-4xl p-2">
-				<slot name="title" />
-			</h3>
-		</div>
-		<div>
-			<p class="text-3xl px-8">
-				<slot name="content" />
-			</p>
+<div class="w-full lg:w-1/3 my-8 lg:px-12 flex justify-center">
+	<div class="module-background bg-cover" style={`background-image: url(${picture})`}>
+		<div
+			class="module-container lg:px-6 py-12 flex flex-wrap justify-center h-full text-center text-white"
+		>
+			<div class="w-full lg:mx-32 mb-8 px-20">
+				<h3 class="text-2xl lg:text-4xl p-2">
+					<slot name="title" />
+				</h3>
+			</div>
+			<div>
+				<p class="text-xl lg:text-3xl lg:px-8 px-6">
+					<slot name="content" />
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
 
 <style>
 	.module-background {
-		height: 635px;
-		width: 490px;
+		/* height: 635px;
+		width: 490px; */
 		border-radius: 51px;
 	}
 
