@@ -3,16 +3,14 @@
 	import PLAY from '$lib/img/header/PLAY.png';
 	import VideoPlayer from './VideoPlayer.svelte';
 
-	let showVideo = false;
+	export let showVideo = false;
 
 	const toggleVideo = () => {
 		showVideo = !showVideo;
 	};
 </script>
 
-{#if showVideo}
-	<VideoPlayer toggleVideoFunction={toggleVideo} />
-{/if}
+<VideoPlayer {toggleVideo} {showVideo} />
 <div class="banner-container relative">
 	<div class="left-10 w-full h-full bg-no-repeat flex flex-wrap p-12">
 		<div class="w-1/2 h-full flex flex-wrap content-between">
@@ -36,7 +34,7 @@
 			</button>
 		</div>
 	</div>
-	<div class="-z-50 w-auto absolute top-0 right-0 bg-right h-full w-full bg-gallo bg-repeat" />
+	<div class="-z-50 absolute top-0 right-0 bg-right h-full w-full bg-gallo bg-repeat" />
 </div>
 
 <style>
