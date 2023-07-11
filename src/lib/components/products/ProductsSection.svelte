@@ -1,6 +1,6 @@
 <script>
-	import MasterclassGradient from './MasterclassGradient/MasterclassGradient.svelte';
-	import ProductPictures from './containers/ProductPictures.svelte';
+	import MasterclassGradient from '../Masterclass/MasterclassGradient.svelte';
+	import ProductPictures from './ProductPictures.svelte';
 </script>
 
 <div class="px-32 py-20 flex justify-center flex-wrap">

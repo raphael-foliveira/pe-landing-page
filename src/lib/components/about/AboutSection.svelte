@@ -1,6 +1,6 @@
 <script>
-	import MasterclassGradient from './MasterclassGradient/MasterclassGradient.svelte';
-	import LearningPoints from './learning-points/LearningPoints.svelte';
+	import MasterclassGradient from '../Masterclass/MasterclassGradient.svelte';
+	import LearningPoints from '../learning-points/LearningPoints.svelte';
 </script>
 
 <div class="background">

@@ -1,6 +1,6 @@
 <script>
-	import MasterclassGradient from './MasterclassGradient/MasterclassGradient.svelte';
-	import GradientContainer from './containers/GradientContainer.svelte';
+	import MasterclassGradient from './MasterclassGradient.svelte';
+	import GradientContainer from '../containers/GradientContainer.svelte';
 </script>
 
 <GradientContainer>

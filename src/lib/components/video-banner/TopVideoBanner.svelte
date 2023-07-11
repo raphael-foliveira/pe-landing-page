@@ -44,6 +44,6 @@
 	}
 
 	.bg-gallo {
-		background-image: url('../img/header/banner_sem_botao_2.png');
+		background-image: url('$lib/img/header/banner_sem_botao_2.png');
 	}
 </style>

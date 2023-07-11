@@ -1,7 +1,7 @@
 <script>
-	import MasterclassGradient from '$lib/components/MasterclassGradient/MasterclassGradient.svelte';
+	import MasterclassGradient from '$lib/components/Masterclass/MasterclassGradient.svelte';
 	import Modules from '$lib/components/certif-content/Modules.svelte';
-	import SuccessGuide from './certif-content/SuccessGuide.svelte';
+	import SuccessGuide from './SuccessGuide.svelte';
 </script>
 
 <div class="background mx-2 p-12 rounded-3xl flex flex-wrap my-8">

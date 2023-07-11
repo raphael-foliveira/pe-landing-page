@@ -1,16 +1,18 @@
 <script>
-	import AboutSection from '$lib/components/AboutSection.svelte';
-	import ContentSection from '$lib/components/ContentSection.svelte';
-	import Masterclass from '$lib/components/Masterclass.svelte';
-	import Products from '$lib/components/Products.svelte';
-	import TopVideoBanner from '$lib/components/TopVideoBanner.svelte';
+	import MasterclassSection from '$lib/components/Masterclass/MasterclassSection.svelte';
+	import AboutSection from '$lib/components/about/AboutSection.svelte';
+	import ContentSection from '$lib/components/certif-content/ContentSection.svelte';
 	import GradientContainer from '$lib/components/containers/GradientContainer.svelte';
+	import ProductsSection from '$lib/components/products/ProductsSection.svelte';
+	import TopVideoBanner from '$lib/components/video-banner/TopVideoBanner.svelte';
+	import WorkToolSection from '$lib/components/work-tool/WorkToolSection.svelte';
 </script>
 
 <TopVideoBanner />
-<Masterclass />
+<MasterclassSection />
 <AboutSection />
 <GradientContainer>
-	<Products />
+	<ProductsSection />
 	<ContentSection />
 </GradientContainer>
+<WorkToolSection />
