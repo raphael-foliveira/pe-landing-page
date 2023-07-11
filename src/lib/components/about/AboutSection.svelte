@@ -1,13 +1,13 @@
 <script lang="ts">
 	import MasterclassGradient from '../masterclass/MasterclassGradient.svelte';
-	import LearningPoints from '../learning-points/LearningPoints.svelte';
+	import LearningPoints from './learning-points/LearningPoints.svelte';
 
 	let cw: number;
 	$: borderClass = cw > 1024 ? 'top-text-container' : '';
 </script>
 
-<div class="background" bind:clientWidth={cw}>
-	<div class="py-8 lg:p-32 lg:py-20 w-full lg:w-3/5 text-center lg:text-left">
+<div class="background px-4 lg:px-32" bind:clientWidth={cw}>
+	<div class="py-8 lg:py-20 w-full lg:w-3/5 text-center lg:text-left">
 		<div class="{borderClass} h-fit text-xl lg:text-4xl pl-6 lg:my-12">
 			<p>
 				<strong> Se você disse sim a qualquer um desses itens, </strong>
@@ -26,7 +26,7 @@
 	</div>
 
 	<LearningPoints />
-	<div class="px-36 py-10">
+	<div class="pb-10">
 		<MasterclassGradient color="black" />
 	</div>
 </div>

@@ -1,15 +1,14 @@
 <script lang="ts">
-	import LearningPoint from './LearningPoint.svelte';
 	import IconArrowUp from '$lib/img/icons/icon_arrow_up_.png';
-	import IconStar from '$lib/img/icons/icon_star_.png';
+	import IconCoins from '$lib/img/icons/icon_coins_.png';
 	import IconSearchJob from '$lib/img/icons/icon_search_job_.png';
+	import IconStar from '$lib/img/icons/icon_star_.png';
 	import IconTool from '$lib/img/icons/icon_tool_.png';
 	import IconYoutube from '$lib/img/icons/icon_youtube_.png';
-	import IconCoins from '$lib/img/icons/icon_coins_.png';
-	import MasterclassGradient from '../masterclass/MasterclassGradient.svelte';
+	import LearningPoint from './LearningPoint.svelte';
 </script>
 
-<div class="flex flex-wrap">
+<div class="flex flex-wrap justify-between">
 	<LearningPoint image={IconStar}>
 		<span slot="title">Autoridade</span>
 		<span slot="content"
