@@ -1,4 +1,4 @@
-<div class="gradient-container p-4">
+<div class="gradient-container">
 	<slot />
 </div>
 
