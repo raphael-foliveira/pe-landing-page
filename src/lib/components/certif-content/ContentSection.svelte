@@ -1,5 +1,5 @@
 <script>
-	import MasterclassGradient from '$lib/components/Masterclass/MasterclassGradient.svelte';
+	import MasterclassGradient from '$lib/components/masterclass/MasterclassGradient.svelte';
 	import Modules from '$lib/components/certif-content/Modules.svelte';
 	import SuccessGuide from './SuccessGuide.svelte';
 </script>

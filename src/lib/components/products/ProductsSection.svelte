@@ -1,5 +1,5 @@
 <script>
-	import MasterclassGradient from '../Masterclass/MasterclassGradient.svelte';
+	import MasterclassGradient from '../masterclass/MasterclassGradient.svelte';
 	import ProductPictures from './ProductPictures.svelte';
 </script>
 

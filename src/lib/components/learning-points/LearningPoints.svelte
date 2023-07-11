@@ -6,7 +6,7 @@
 	import IconTool from '$lib/img/icons/icon_tool_.png';
 	import IconYoutube from '$lib/img/icons/icon_youtube_.png';
 	import IconCoins from '$lib/img/icons/icon_coins_.png';
-	import MasterclassGradient from '../Masterclass/MasterclassGradient.svelte';
+	import MasterclassGradient from '../masterclass/MasterclassGradient.svelte';
 </script>
 
 <div class="flex flex-wrap">

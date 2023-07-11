@@ -1,7 +1,7 @@
 <script>
 	import Computer from '$lib/img/product/computer.png';
 	import SystemDemo from '$lib/img/product/system_demo.png';
-	import MasterclassGradient from '../Masterclass/MasterclassGradient.svelte';
+	import MasterclassGradient from '../masterclass/MasterclassGradient.svelte';
 </script>
 
 <div class="rounded-3xl p-8 text-white flex flex-wrap card justify-center">
