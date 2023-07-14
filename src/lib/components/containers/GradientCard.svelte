@@ -1,4 +1,4 @@
-<div class="gradient-container rounded-3xl flex flex-wrap p-12">
+<div class="gradient-container rounded-3xl flex flex-wrap  p-4 lg:p-12">
 	<slot />
 </div>
 

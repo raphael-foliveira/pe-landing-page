@@ -1,4 +1,4 @@
-<div class="flex flex-wrap justify-center px-20 py-8">
+<div class="flex flex-wrap justify-center px-4 lg:px-20 py-8">
 	<slot />
 </div>
 
