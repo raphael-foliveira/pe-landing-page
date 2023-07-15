@@ -6,7 +6,7 @@
 	import WhatYouGet from './WhatYouGet.svelte';
 </script>
 
-<div class="bg-white p-8">
+<div class="bg-white p-4 lg:p-8">
 	<WorkToolCard />
 	<ProgramCard title="programa de mentoria em grupo" image={Mentoria1}>
 		<p>

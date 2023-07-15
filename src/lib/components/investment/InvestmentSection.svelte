@@ -6,7 +6,7 @@
 <InvestmentGradient>
 	<h3 class="text-center text-5xl my-8 w-full">VALOR DO INVESTIMENTO</h3>
 	<InvestmentCard />
-	<button class="py-4 px-12 text-3xl font-black rounded-3xl w-2/3 my-32 mb-12"
+	<button class="py-4 px-12 text-3xl font-black rounded-3xl lg:w-2/3 my-32 mb-12"
 		>QUERO ME INSCREVER</button
 	>
 </InvestmentGradient>

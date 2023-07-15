@@ -4,15 +4,15 @@
 	import MasterclassGradient from '../masterclass/MasterclassGradient.svelte';
 </script>
 
-<div class="rounded-3xl p-8 text-white flex flex-wrap card justify-center">
+<div class="rounded-3xl p-4 lg:p-8 text-white flex flex-wrap card justify-center">
 	<h3 class="text-3xl text-center w-full my-4">FERRAMENTA DE TRABALHO</h3>
-	<div class="bg-solid bg-white rounded-3xl text-center px-12 py-4 my-6 w-1/2">
-		<h3 class="text-gray-400 text-3xl font-light">GPA - GALLO PERSONAL ADVANCED</h3>
+	<div class="bg-solid bg-white rounded-3xl text-center px-2 lg:px-12 py-4 my-6 lg:w-1/2">
+		<h3 class="text-gray-400 text-xl lg:text-3xl font-light">GPA - GALLO PERSONAL ADVANCED</h3>
 	</div>
 	<div class="w-full flex justify-center">
-		<img src={Computer} alt="" class="computer" />
+		<img src={Computer} alt="" class="w-full computer" />
 	</div>
-	<div class="text-center text-3xl px-48 text-container">
+	<div class="text-center text-xl lg:text-3xl lg:px-48 text-container">
 		<p>
 			O GPA, é a sua ferramenta para avaliar e customizar todos os programas, com total precisão,
 			segurança e certeza de resultado. Software exclusivo para alunos da Certificação.
@@ -34,7 +34,7 @@
 		<p class="font-bold mb-12">Mas, pra você que vai entrar nessa turma da certificação:</p>
 		<hr />
 	</div>
-	<div class="text-container text-center text-3xl px-96">
+	<div class="text-container text-center text-xl lg:text-3xl lg:px-96">
 		<p>Ou seja, você não vai pagar anuidade por um ano, e vai ganhar mais 3 licenças.</p>
 		<p>
 			Após o vencimento da anuidade gratuita, o custo da anuidade é de R$ 600,00 com 10 licenças
